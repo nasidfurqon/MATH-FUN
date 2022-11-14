@@ -1,0 +1,220 @@
+* {
+  font-family: sans-serif;
+  margin: 0px auto;
+}
+.container {
+  max-width: 1500px;
+}
+/* Style for Navbar */
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  position: fixed;
+}
+.navbarKanan {
+  margin-left: 85px;
+}
+.navbarLogoGambar {
+  width: 40px;
+  margin: 10px;
+  float: left;
+}
+.navbarLogoTulisan {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 19px 0px;
+  float: left;
+  color: #0088b9;
+}
+/* End Style Navbar */
+/* #jumbotron {
+  background-repeat: no-repeat;
+  background-image: url("../image/backgroundJumbotron.png");
+  background-size: 100%;
+  height: 600px;
+} */
+
+.jumbotronUtama {
+  padding-top: 135px;
+  padding-left: 40px;
+  color: #0088b9;
+}
+.jumbotronTulisan {
+  padding-left: 60px;
+  font-family:'comic';
+}
+.jumbotronTulisan img {
+  float: left;
+  width: 33 0px; 
+  height: 330px;
+  padding-right: 20px;
+  border-radius: 30px 40px 50px;
+}
+.jumbotronTulisan h1 {
+  font-family: 'Handlee', cursive;
+  font-weight: bold;
+  margin-top: 60px;
+  font-size: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+}
+.jumbotronTulisan p {
+  font-family: 'Handlee', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+.Pertanyaan {
+  padding-top: 100px;
+  margin-left: 450px;
+  padding-bottom: 30px;
+}
+.Pertanyaan h1 {
+  font-family: 'Handlee', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: #fff;
+}
+#Soal {
+  margin-top: 150px;
+  background-color:#0088b9 ;
+  height: 2300px;
+  margin-bottom: 50px;
+}
+.BarisSoal {
+  padding-left: 170px;
+}
+.BarisSoal h1 {
+  font-family: 'Handlee', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  padding: 20px;
+  color: #0088b9;
+}
+.BarisSoal p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.BarisSoal .soal1{
+  background-color: #fff;
+  height: 300px ;
+  display: inline-block;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+
+.BarisSoal .soal2 {
+  background-color: #fff;
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+.BarisSoal .soal3 {
+  background-color: #fff;
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+.BarisSoal .soal3 p {
+  font-size: 17px;
+}
+.BarisSoal .soal4 p {
+  font-size: 19px;
+}
+.BarisSoal .soal4 {
+  background-color: #fff;
+  height: 300px ;
+  display: inline-block;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+
+.BarisSoal .soal5 {
+  background-color: #fff;
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+.BarisSoal .soal6 {
+  background-color: #fff;
+  display: inline-block;
+  height: 300px;
+  margin: 40px;
+  width: 500px;
+  border-radius: 25px;
+}
+.BarisSoal .soal6 p {
+  font-size: 19px;
+}
+.BarisSoal .soal7 {
+  background-color: #fff;
+  height: 300px ;
+  display: inline-block;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+.BarisSoal .soal7  {
+  font-size: 19px;
+}
+.BarisSoal .soal8 {
+  background-color: #fff;
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+.BarisSoal .soal8 {
+  font-size: 19px;
+}
+.BarisSoal .soal9 {
+  background-color: #fff;
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+.BarisSoal .soal9  {
+  font-size: 19px;
+}
+.BarisSoal .soal10 {
+  background-color: #fff;
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  margin: 40px;
+  border-radius: 25px;
+}
+.ButtonJawaban button {
+  background-color: #fff;
+  color: #0779E4;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 50px;
+  padding: 10px 20px;
+  margin-left: 670px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.ButtonJawaban button:hover {
+    background-color: #0779E4;
+    color: #fff;
+}
