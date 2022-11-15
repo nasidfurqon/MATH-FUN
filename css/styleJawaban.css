@@ -212,3 +212,44 @@ nav {
     background-color: #0779E4;
     color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .jumbotronUtama {
+    padding-top: 135px;
+    padding-left: 40px;
+    color: #0088b9;
+  }
+  .jumbotronTulisan {
+    padding-left: 70px;
+    font-family:'comic';
+  }
+  .jumbotronTulisan img {
+    float: left;
+    width: 430px; 
+    height: 330px;
+    padding-right: 20px;
+    border-radius: 30px 40px 50px;
+  }
+  .jumbotronTulisan h1 {
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 30px;
+    padding-right: 500px;
+  }
+  .jumbotronTulisan p {
+    font-family: 'Handlee', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin-right: -1000px;
+  }
+  #Jawab {
+    margin-top: 150px;
+    background-color:#0088b9 ;
+    height: 2900px;
+    margin-bottom: 50px;
+    margin-right: -1000px;
+  }
+}
